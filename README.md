@@ -1,40 +1,6 @@
 # test
 No Description
-//class MyException extends Exception{
-//	public MyException() {}
-//	public MyException(String msg) {super(msg);}
-//	
-//}
-//class FullConstructors{
-//	public static void f() throws MyException{
-//		System.out.println("Throwsing MyException from f()");
-//		throw new MyException();
-//	}
-//	public static void g() throws MyException{
-//		System.out.println("Throwing MyException form g()");
-//		throw new MyException("Originated in g()");
-//	}
-//	
-//	public static void main(String args []) {
-//		
-//		try {
-//			f();
-//			
-//		}catch(Exception e) {
-//			e.printStackTrace(System.out);
-//			
-//		}
-//		try {
-//			g();
-//			
-//		}catch(Exception e) {
-//			e.printStackTrace(System.out);
-//			
-//		}
-//		
-//		
-//	}
-//}
+
 import java.util.logging.*;
 import java.io.*;
 class MyException extends Exception{
